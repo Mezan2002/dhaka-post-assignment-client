@@ -9,7 +9,7 @@ const Navbar = () => {
 
   return (
     <nav className="bg-white">
-      <div className="py-8 border-b border-black">
+      <div className="py-[34px] border-b border-black">
         <div className="px-4">
           <Image
             src="/images/logo.png"

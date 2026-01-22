@@ -15,7 +15,7 @@ const OpinionCard = ({ title, href = "#" }) => {
           height={16}
         />
       </div>
-      <span className="text-sm tracking-tighter text-black leading-snug">
+      <span className="text-sm leading-relaxed tracking-tight text-black">
         {title}
       </span>
     </Link>
