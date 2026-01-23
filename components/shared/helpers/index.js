@@ -1,6 +1,6 @@
 export const navItems = [
   {
-    label: "HOME",
+    label: "Home",
     href: "/",
     hasDropdown: true,
     dropdownItems: [
@@ -9,12 +9,12 @@ export const navItems = [
       { label: "Homepage Layout 3", href: "/layout-3" },
     ],
   },
-  { label: "NEWS", href: "/news" },
-  { label: "POLITICS", href: "/politics" },
-  { label: "BUSINESS", href: "/business" },
-  { label: "NATIONAL", href: "/national" },
-  { label: "CULTURE", href: "/culture" },
-  { label: "OPINION", href: "/opinion" },
-  { label: "LIFESTYLE", href: "/lifestyle" },
-  { label: "SPORTS", href: "/sports" },
+  { label: "News", href: "/news" },
+  { label: "Politics", href: "/politics" },
+  { label: "Business", href: "/business" },
+  { label: "National", href: "/national" },
+  { label: "Culture", href: "/culture" },
+  { label: "Opinion", href: "/opinion" },
+  { label: "Lifestyle", href: "/lifestyle" },
+  { label: "Sports", href: "/sports" },
 ];

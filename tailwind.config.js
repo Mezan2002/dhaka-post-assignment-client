@@ -12,6 +12,7 @@ module.exports = {
         white_light: "#F0F1F2",
         red: "#D32F2F",
         blue: "#2979FF",
+        dark: "#212121",
       },
       fontFamily: {
         sans: ["Roboto", "sans-serif"],

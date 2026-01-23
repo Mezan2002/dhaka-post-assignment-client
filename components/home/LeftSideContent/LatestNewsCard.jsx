@@ -5,7 +5,7 @@ const LatestNewsCard = ({ image, title, href = "#" }) => {
   return (
     <Link
       href={href}
-      className="flex items-start gap-3 py-3 border-b border-gray-100 last:border-0 hover:bg-gray-50/50 transition-colors"
+      className="flex items-start gap-3 py-3 pr-2 border-b border-gray-100 last:border-0 hover:bg-gray-50/50 transition-colors"
     >
       <div className="relative h-fit flex-shrink-0 overflow-hidden rounded-sm">
         <Image
@@ -17,7 +17,7 @@ const LatestNewsCard = ({ image, title, href = "#" }) => {
         />
       </div>
       <div className="flex-1">
-        <h3 className="text-sm font-bold text-black leading-normal line-clamp-3 transition-colors">
+        <h3 className="text-xs lg:text-sm font-bold text-black leading-normal line-clamp-3 transition-colors">
           {title}
         </h3>
       </div>
